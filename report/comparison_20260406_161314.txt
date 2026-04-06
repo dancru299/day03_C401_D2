@@ -1,0 +1,592 @@
+====================================================================================================
+CHATBOT COMPARISON REPORT
+Generated: 2026-04-06 16:13:14
+====================================================================================================
+
+====================================================================================================
+QUESTION 1
+====================================================================================================
+
+📝 QUESTION:
+Hôm nay tôi đổ 50k xăng và làm ly trà sữa 35k. Ghi sổ vào 2026-04-06 nhé. Tính xem tôi tiêu hết % ngân sách chưa.
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+Để tính toán xem bạn đã tiêu hết bao nhiêu phần trăm ngân sách, chúng ta cần biết **tổng ngân sách bạn đã đặt ra là bao nhiêu**.
+
+Hiện tại, bạn mới chỉ cung cấp thông tin về các khoản chi tiêu đã phát sinh:
+
+*   Đổ xăng: 50.000 VNĐ
+*   Trà sữa: 35.000 VNĐ
+
+**Tổng chi tiêu của bạn tính đến thời điểm hiện tại là:** 50.000 + 35.000 = **85.000 VNĐ**.
+
+**Để tính được phần trăm ngân sách đã tiêu, bạn vui lòng cung cấp thêm thông tin về:**
+
+1.  **Tổng ngân sách bạn dự kiến cho khoản chi tiêu này là bao nhiêu?**
+
+Sau khi có thông tin này, tôi sẽ giúp bạn tính toán:
+
+$$\text{% Ngân sách đã tiêu} = \left( \frac{\text{Tổng chi tiêu}}{\text{Tổng ngân sách}} \right) \times 100\%$$
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+Đã ghi nhận khoản chi đổ xăng 50.000 và trà sữa 35.000 vào ngày 06-04-2026. Tổng chi tiêu tháng này của bạn là 235.000, chiếm 23.5% ngân sách tháng.
+
+
+====================================================================================================
+QUESTION 2
+====================================================================================================
+
+📝 QUESTION:
+Tôi vừa mua đồ ăn ShopeeFood 85k. Tháng này tôi có ngân sách 10 triệu. Tôi đã tiêu hết bao nhiêu % rồi?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+Để tính toán bạn đã tiêu bao nhiêu phần trăm ngân sách, chúng ta cần biết **tổng số tiền bạn đã chi tiêu từ đầu tháng cho đến trước khi mua đơn ShopeeFood 85k này**.
+
+Bạn vui lòng cung cấp thêm thông tin về tổng chi tiêu của bạn trong tháng này để tôi có thể tính toán chính xác cho bạn nhé.
+
+Tuy nhiên, tôi có thể hướng dẫn bạn cách tính như sau:
+
+**Công thức tính phần trăm đã chi tiêu:**
+
+(Tổng số tiền đã chi tiêu / Ngân sách tháng) * 100%
+
+**Ví dụ:**
+
+Giả sử trước khi mua đơn ShopeeFood 85k, bạn đã chi tiêu 5.000.000 VNĐ trong tháng này.
+
+1.  **Tổng số tiền đã chi tiêu (bao gồm đơn ShopeeFood):** 5.000.000 VNĐ + 85.000 VNĐ = 5.085.000 VNĐ
+2.  **Ngân sách tháng:** 10.000.000 VNĐ
+3.  **Phần trăm đã chi tiêu:** (5.085.000 VNĐ / 10.000.000 VNĐ) * 100% = **50.85%**
+
+**Vậy, để tôi có thể giúp bạn, hãy cho tôi biết bạn đã tiêu bao nhiêu tiền từ đầu tháng đến bây giờ nhé!**
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.971405733s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+
+====================================================================================================
+QUESTION 3
+====================================================================================================
+
+📝 QUESTION:
+Tháng này tôi tiêu hết bao nhiêu rồi?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.827589482s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.713326643s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+
+====================================================================================================
+QUESTION 4
+====================================================================================================
+
+📝 QUESTION:
+Tôi còn bao nhiêu tiền ngân sách trong tháng?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.603947419s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.510033712s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+
+====================================================================================================
+QUESTION 5
+====================================================================================================
+
+📝 QUESTION:
+Ghi sổ tôi mua sách 150k, xem tôi tiêu bao nhiêu tổng cộng?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.424857096s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.331939095s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+
+====================================================================================================
+QUESTION 6
+====================================================================================================
+
+📝 QUESTION:
+Chi tiêu tôi tháng trước là bao nhiêu?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.232736755s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 46.120430711s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 46
+}
+]
+
+
+====================================================================================================
+QUESTION 7
+====================================================================================================
+
+📝 QUESTION:
+Tôi có bao nhiêu giao dịch trong tháng này?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.922062623s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.815072121s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+
+====================================================================================================
+QUESTION 8
+====================================================================================================
+
+📝 QUESTION:
+Ghi sổ tôi mua PTS 200k, xem tôi tiêu hết % ngân sách?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.696543251s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.601190974s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+
+====================================================================================================
+QUESTION 9
+====================================================================================================
+
+📝 QUESTION:
+Danh sách tất cả giao dịch của tôi là gì?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.486485574s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.389142545s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+
+====================================================================================================
+QUESTION 10
+====================================================================================================
+
+📝 QUESTION:
+So sánh chi tiêu tháng này và tháng trước, tôi tiêu ít hơn hay nhiều hơn?
+
+----------------------------------------------------------------------------------------------------
+🤖 BASELINE CHATBOT (Simple LLM - No Tools):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.296807661s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+----------------------------------------------------------------------------------------------------
+🧠 REACT AGENT (With Tools - Smart Reasoning):
+----------------------------------------------------------------------------------------------------
+[ERROR] 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash-lite
+Please retry in 45.203139361s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-flash-lite"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 20
+}
+, retry_delay {
+  seconds: 45
+}
+]
+
+
