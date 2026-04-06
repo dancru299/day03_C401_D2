@@ -9,6 +9,7 @@ load_dotenv()
 
 from src.core.openai_provider import OpenAIProvider
 from src.core.gemini_provider import GeminiProvider
+from src.core.ollama_provider import OllamaProvider
 from src.agent.agent import ReActAgent
 from src.tools.expense_tools import EXPENSE_TOOLS_MAP, get_monthly_expense, get_budget, get_spending_by_category, get_today_expenses
 
@@ -20,6 +21,9 @@ if provider_name == "openai":
     llm = OpenAIProvider(model_name="gpt-3.5-turbo")
 elif provider_name == "gemini":
     llm = GeminiProvider(model_name="gemini-1.5-flash")
+elif provider_name == "ollama":
+    llm = OllamaProvider(   model_name=os.getenv("OLLAMA_MODEL", "qwen2.5:7b-instruct-q3_k_L").strip(),
+                         base_url=os.getenv("OLLAMA_BASE_URL", "http://localhost:11434").strip())
 else:
     llm = OpenAIProvider(model_name="gpt-3.5-turbo")
 
