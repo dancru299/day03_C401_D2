@@ -1,6 +1,13 @@
 import os
 from dotenv import load_dotenv
 import sys
+import io
+
+# Force UTF-8 encoding for Windows console
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+if sys.stderr.encoding != 'utf-8':
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
@@ -8,6 +15,7 @@ from src.core.openai_provider import OpenAIProvider
 from src.core.gemini_provider import GeminiProvider
 from src.agent.agent import ReActAgent
 from src.tools.expense_tools import EXPENSE_TOOLS_MAP
+from loguru import logger
 
 def run_agent_test():
     load_dotenv()
@@ -19,7 +27,7 @@ def run_agent_test():
     if provider_name == "openai":
         llm = OpenAIProvider(model_name="gpt-3.5-turbo")
     elif provider_name == "gemini":
-        llm = GeminiProvider(model_name="gemini-1.5-flash")
+        llm = GeminiProvider(model_name="gemini-2.5-flash-lite")
     else:
         print("Vui lòng chọn provider openai hoặc gemini.")
         return
@@ -29,16 +37,14 @@ def run_agent_test():
 
     # 3. Test case thực tế
     print("\n--- TEST CASE ---")
-    test_message = "Hôm nay tôi đổ 50k xăng và làm ly trà sữa 35k. Ghi sổ vào hôm nay 2026-04-06 nhé. Tính xem tôi tiêu hết % ngân sách chưa."
-    print(f"\n👤 Bạn: {test_message}")
+    test_message = "Tháng này tôi tiêu hết bao nhiêu rồi?"
+    logger.info(f"\n👤 Bạn: {test_message}")
     
     print("\n" + "="*50)
     final_response = agent.run(test_message)
     print("="*50)
     
-    print("\n🤖 [FINAL ANSWER] Chatbot trả lời:\n")
-    print(final_response)
-    print("\n✅ Vui lòng kiểm tra file report/transactions.csv để xem dữ liệu đã được ghi sổ chưa!")
+    logger.info("\n🤖 [FINAL ANSWER] Chatbot trả lời:\n: {final_response}")
 
 if __name__ == "__main__":
     run_agent_test()
