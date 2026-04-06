@@ -1,7 +1,7 @@
 # Group Report: Lab 3 - Production-Grade Agentic System
 
 - **Team Name**: C401_D2
-- **Team Members**: Nguyễn Văn A, Trần Thị B, Lê Văn C (Điền tên thành viên của nhóm vào đây)
+- **Team Members**: Vũ Duy Linh, Đậu Văn Quyền, Hoàng Ngọc Anh, Nguyễn Hoàng Việt và Nguyễn Anh Đức
 - **Deployment Date**: 2026-04-06
 
 ---

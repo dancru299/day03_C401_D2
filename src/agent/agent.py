@@ -41,6 +41,7 @@ QUY TẮC QUAN TRỌNG:
 4. Khi người dùng hỏi "hôm nay/chiều nay có chi gì không", hãy dùng get_today_expenses().
 5. Khi ghi khoản chi, luôn truyền date="{today}" hoặc date="" để hệ thống tự lấy.
 6. Khi người dùng hỏi tổng chi tiêu, hãy dùng get_monthly_expense() để lấy CON SỐ THỰC TẾ, KHÔNG tự bịa.
+7. TUYỆT ĐỐI KHÔNG được ghi "Action: None". NẾU KHÔNG CẦN DÙNG TOOL NỮA, BẮT BUỘC dùng từ khoá "Final Answer: " để trả lời.
 
 FORMAT BẮT BUỘC:
 Thought: (Suy nghĩ về bước tiếp theo)
@@ -113,6 +114,15 @@ Final Answer: câu trả lời tiếng Việt cho người dùng.
                     final_answer = result.split("Final Answer:")[-1].strip()
                 break
                 
+            elif "Action: None" in result or "Action: none" in result:
+                # Bắt lỗi khi LLM Open Source lỡ sinh ra Action: None
+                thought_match = re.search(r"Thought:\s*(.*?)(Action:|$)", result, re.DOTALL | re.IGNORECASE)
+                if thought_match:
+                    final_answer = thought_match.group(1).strip()
+                else:
+                    final_answer = result.replace("Action: None", "").strip()
+                break
+
             else:
                 # LLM trả lời tùy tiện không lọt Form -> Gắn Final Answer luôn
                 final_answer = result
